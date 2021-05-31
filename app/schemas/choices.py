@@ -1,0 +1,73 @@
+from enum import Enum, IntEnum
+
+
+class NumericCodeEnum(IntEnum):
+    AUD = 36
+    AZN = 944
+    GBP = 826
+    AMD = 51
+    BYN = 933
+    BGN = 975
+    BRL = 986
+    HUF = 348
+    HKD = 344
+    DKK = 208
+    USD = 840
+    EUR = 978
+    INR = 356
+    KZT = 398
+    CAD = 124
+    KGS = 417
+    CNY = 156
+    MDL = 498
+    NOK = 578
+    PLN = 985
+    RON = 946
+    SGD = 702
+    TJS = 972
+    TRY = 949
+    TMT = 934
+    UZS = 860
+    UAH = 980
+    CZK = 203
+    SEK = 752
+    CHF = 756
+    ZAR = 710
+    KRW = 410
+    JPY = 392
+
+
+class LetterCodeEnum(str, Enum):
+    AUD = 'AUD'
+    AZN = 'AZN'
+    GBP = 'GBP'
+    AMD = 'AMD'
+    BYN = 'BYN'
+    BGN = 'BGN'
+    BRL = 'BRL'
+    HUF = 'HUF'
+    HKD = 'HKD'
+    DKK = 'DKK'
+    USD = 'USD'
+    EUR = 'EUR'
+    INR = 'INR'
+    KZT = 'KZT'
+    CAD = 'CAD'
+    KGS = 'KGS'
+    CNY = 'CNY'
+    MDL = 'MDL'
+    NOK = 'NOK'
+    PLN = 'PLN'
+    RON = 'RON'
+    SGD = 'SGD'
+    TJS = 'TJS'
+    TRY = 'TRY'
+    TMT = 'TMT'
+    UZS = 'UZS'
+    UAH = 'UAH'
+    CZK = 'CZK'
+    SEK = 'SEK'
+    CHF = 'CHF'
+    ZAR = 'ZAR'
+    KRW = 'KRW'
+    JPY = 'JPY'

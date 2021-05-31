@@ -1,0 +1,7 @@
+[flake8]
+ignore=C819
+max-line-length=100
+import-order-style=pep8
+application-import-names=app
+max-cognitive-complexity=7
+exclude=__init__.py

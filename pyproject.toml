@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "CBR REST Currency"
+version = "0.1.0"
+description = "Exchange rate conversion"
+authors = ["Ilya Kormilkin korid24.dev@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9.0"
+uvicorn = "0.12.3"
+fastapi = "0.62.0"
+httpx = "0.18.1"
+asyncio = "3.4.3"
+ipython = "^7.23.0"
+
+[tool.poetry.dev-dependencies]
+pep8-naming = "0.11.1"
+flake8 = "3.8.3"
+flake8-import-order = "0.18.1"
+flake8-blind-except = "0.1.1"
+flake8-builtins = "1.5.3"
+flake8-broken-line = "0.2.1"
+flake8-commas = "2.0.0"
+flake8-eradicate = "0.4.0"
+flake8-print = "3.1.4"
+flake8-quotes = "3.2.0"
+flake8-cognitive-complexity = "0.1.0"
+flake8-bugbear = "20.1.4"
+pylint = "2.5.3"
